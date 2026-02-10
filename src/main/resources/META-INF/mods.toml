@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+
+[[mods]]
+modId="examplemod"  # <--- Вернули examplemod
+version="1.0"
+displayName="Blue Lock Mod"
+credits="Created using Acode"
+authors="Me"
+description='''
+Mod about Anime Blue Lock
+'''
+
+[[dependencies.examplemod]] # <--- Тут тоже examplemod
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.examplemod]] # <--- И тут
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
